@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Personal portfolio website",
   "scripts": {
-    "start": "serve ."
+    "start": "serve .",
+    "vercel-build": "echo 'No build step required for static site'"
   },
   "dependencies": {
     "serve": "^14.2.1"
