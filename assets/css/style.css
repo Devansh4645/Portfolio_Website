@@ -1968,3 +1968,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.linkedin-badge {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin-badge .LI-profile-badge {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Ensure the badge is responsive */
+@media (max-width: 768px) {
+  .linkedin-badge .LI-profile-badge {
+    max-width: 250px;
+  }
+}
