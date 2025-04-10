@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Devansh Sanghi</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
   <!--
     - custom css link
@@ -54,10 +54,7 @@
 
         <div class="info-content">
           <h1 class="name" title="Devansh Sanghi">Devansh Sanghi</h1>
-
-          <p class="title">Ex-Summer Intern @IIT ROPAR </p>
-
-          <p class="title">|| Tech Enthusiast ||</p>
+          <p class="title">Ex-Summer Intern @IIT ROPAR | CSE'26 | Tech Enthusiast | Aspiring SDE</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -83,7 +80,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:Devansh Sanghi@example.com" class="contact-link">devanshsanghi001@gmail.com</a>
+              <a href="mailto:Devansh Sanghi@example.com" class="contact-link" target="_blank" rel="noopener noreferrer">devanshsanghi001@gmail.com</a>
             </div>
 
           </li>
@@ -97,21 +94,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+919414004645" class="contact-link">+91-9414004645</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2004-09-29">September 29, 2004</time>
+              <a href="tel:+919414004645" class="contact-link" target="_blank" rel="noopener noreferrer">+91-9414004645</a>
             </div>
 
           </li>
@@ -134,25 +117,25 @@
 
         <div class="separator"></div>
 
-        <ul class="social-list">
+        <div class="social-list">
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/devansh-sanghi/" target="_blank" rel="noopener" class="social-link">
+            <a href="https://www.instagram.com/sanghi.devansh/" class="social-link" data-tooltip="Instagram" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/devansh-sanghi" class="social-link" data-tooltip="LinkedIn" target="_blank" rel="noopener noreferrer">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://github.com/Devansh4645" target="_blank" rel="noopener" class="social-link">
+            <a href="https://github.com/Devansh4645" class="social-link" data-tooltip="GitHub" target="_blank" rel="noopener noreferrer">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/sanghi.devansh?utm_source=qr&igsh=dTRhZHJndGJ5eHEy" target="_blank" rel="noopener" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-        </ul>
+        </div>
 
       </div>
 
@@ -218,12 +201,6 @@
           <p>
             💡 Always learning. Always building. Always leveling up.
           </p>
-
-          <div class="linkedin-badge">
-            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="devansh-sanghi" data-version="v1">
-              <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/devansh-sanghi?trk=profile-badge">Devansh Sanghi</a>
-            </div>
-          </div>
         </section>
 
         <section class="service">
@@ -304,7 +281,16 @@
 
           <ol class="timeline-list">
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Summer Intern - IIT Ropar</h4>
+              <div class="timeline-text">
+                <h4>Summer Intern - IIT Ropar</h4>
+                <p>
+                  Worked on optimizing cache systems and memory architectures
+                  <a href="your-certificate-link" class="certificate-link" target="_blank" rel="noopener">
+                    <ion-icon name="document-text-outline"></ion-icon>
+                    <span>View Certificate</span>
+                  </a>
+                </p>
+              </div>
               <span>May 2024 — July 2024</span>
               <p class="timeline-text">
                 • Implemented a banking-in-memory system within Last Level Cache (LLC) using the ChampSim simulator, increasing IPC by 5.7%
@@ -449,7 +435,7 @@
 
       <article class="blog" data-page="achievements">
         <header>
-          <h2 class="h2 article-title">Achievements & Activities</h2>
+          <h2 class="h2 article-title">Achievements<br>&amp; Awards</h2>
         </header>
         <section class="blog-posts">
           <ul class="blog-posts-list">
@@ -468,7 +454,7 @@
                   <p class="blog-text">
                     Secured 2nd Place in Hack Wars at Chandigarh University, leading a team to implement innovative solutions.
                   </p>
-                </div>
+                  </div>
               </a>
             </li>
             <li class="blog-post-item">
@@ -654,14 +640,14 @@
           <form action="https://formspree.io/f/xjkyppvy" method="POST" class="form" data-form>
             <div class="input-wrapper">
               <label>
-                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
               </label>
               <label>
-                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
               </label>
             </div>
             <label>
-              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
             </label>
             <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
@@ -691,7 +677,6 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 </body>
 
