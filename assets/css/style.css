@@ -732,21 +732,21 @@ main {
     align-items: center;
     width: 100%;
     max-width: 100%;
-    padding: 0 15px;
+    padding: 0 8px;
     margin: 0;
     list-style: none;
-    flex-wrap: nowrap;
   }
 
   .navbar-link {
     color: var(--light-gray);
     text-decoration: none;
     font-size: var(--fs-8);
-    padding: 8px 12px;
+    padding: 8px 4px;
     border-radius: 8px;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    white-space: nowrap;
   }
 
   .navbar-link:hover {
